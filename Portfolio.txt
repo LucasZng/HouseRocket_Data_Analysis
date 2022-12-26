@@ -1,0 +1,36 @@
+1. Questão de negócio.
+	- O que você quer resolver?
+	R: - Encontrar as melhores oportunidades de compra de imóveis do portfólio da House Rocket.
+	
+	- Qual a problema, a dor, a necessidade do time de negócio?
+	R: - O time do negócio não consegue tomar boas decisões de compra sem analisar os dados.
+	- O portfólio é muito grande, muito tempo para fazer o trabalho manualmente.
+
+2. Premissas de negócio.
+	- O que você está assumindo para realizar o projeto?
+	R: - Retirando casas com valor de venda maior que R$ 500.000.000,00 ( possível erro do sistema ).
+
+3. Planejamento da solução:
+	- Qual o seu plano para resolver o problema?
+	R: 	1) Coletar os dados da plataforma Kaggle;
+		2) Remover datas com erros e possíveis outliers;
+	 	3) Organizar os imóveis separados por zipcode;
+		4) Encontrar a mediana do preço dos imóveis por zipcode;
+		5) Separar os imóveis com preço menor que a mediana por região e em condições físicas razoáveis;
+		6) Vender os imóveis separados com uma margem de lucro de 30%;
+
+4. Hipóteses:
+	H2: Imóveis com data de construção menor que 1955, são 50% mais baratos, na média.
+
+	H1: Imóveis que possuem vista para água, são 30% mais caros, na média.
+
+5. Insights: 
+
+6. Lucros:
+	R: Esperado um lucro de, pelo menos, 30% na venda dos imóveis.
+
+7. Conclusão:
+	R: O principal problema da equipe de negócios em filtrar as melhores oportunidades foi resolvida parcialmente.
+
+8. Próximos passos:
+	R: Realizar uma medição mais acurada da valorização de possíveis oportunidades, separando e atribuindo pontuações com relação a número de quartos, banheiros, andares, vista para o mar etc;
